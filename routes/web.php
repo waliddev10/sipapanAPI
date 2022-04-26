@@ -12,7 +12,8 @@
 */
 
 $router->get('/', function () use ($router) {
-    return $router->app->version();
+    $app = $router->app;
+    return view('welcome', compact('app'));
 });
 
 $router->get('/migrate', function () use ($router) {
