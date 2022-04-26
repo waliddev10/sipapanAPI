@@ -21,14 +21,14 @@
             @keyframes shake { 0% { transform: translate(1px, 1px) rotate(0deg); } 10% { transform: translate(-1px, -2px) rotate(-1deg); } 20% { transform: translate(-3px, 0px) rotate(1deg); } 30% { transform: translate(3px, 2px) rotate(0deg); } 40% { transform: translate(1px, -1px) rotate(1deg); } 50% { transform: translate(-1px, 2px) rotate(-1deg); } 60% { transform: translate(-3px, 1px) rotate(0deg); } 70% { transform: translate(3px, 1px) rotate(-1deg); } 80% { transform: translate(-1px, -1px) rotate(1deg); } 90% { transform: translate(1px, 2px) rotate(0deg); } 100% { transform: translate(1px, -2px) rotate(-1deg); } } 
             .badge { animation: blink 3s linear infinite; }
             .dot { animation: blink 1s linear infinite; }
-            .backshape { animation: shake 4s linear infinite; }
+            .backshape { animation: shake 7s linear infinite; }
             @keyframes blink{ 0%{opacity: 0;} 50%{opacity: .5;} 100%{opacity: 1;} 50%{opacity: .5;} }
         </style>
     </head>
     <body>
         <div class="d-flex justify-content-center align-items-center min-vh-100">
-            <div class="item d-flex flex-column align-items-center text-center">
-                <svg width="360" height="256" viewBox="0 0 1440 1024" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <div class="d-flex flex-column align-items-center text-center">
+                <svg width="360" height="256" viewBox="0 0 1440 1024" fill="none" xmlns="http://www.w3.org/2000/svg" class="item">
                     <rect width="1440" height="1024" fill="white"/>
                     <g clip-path="url(#clip0)">
                     <path class="backshape" d="M425.223 79H1028.09C1037.21 79 1045.95 82.6212 1052.4 89.067C1058.84 95.5128 1062.46 104.255 1062.46 113.371V151.32H390.852V113.371C390.852 104.255 394.474 95.5128 400.919 89.067C407.365 82.6212 416.108 79 425.223 79V79Z" fill="#1C85E8"/>
