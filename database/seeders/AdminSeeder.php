@@ -18,11 +18,11 @@ class AdminSeeder extends Seeder
     {
         return Admin::create([
             'id' => Uuid::uuid4(),
-            'nama' => 'Moh. Walid Arkham Sani',
-            'nip' => '200008062022011001',
-            'jabatan' => 'Pengelola Data Transaksi',
+            'nama' => 'Adelia Ayuningtyas Widiyanto',
+            'nip' => '200101022022012002',
+            'jabatan' => 'Pengelola Pendapatan',
             'email' => 'admin@gmail.com',
-            'password' => Hash::make('admin')
+            'password' => Hash::make('@dmin')
         ]);
     }
 }
