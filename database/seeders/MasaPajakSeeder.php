@@ -18,7 +18,7 @@ class MasaPajakSeeder extends Seeder
     {
         return MasaPajak::create([
             'id' => Uuid::uuid4(),
-            'bulan' => 4,
+            'bulan' => 5,
             'tahun' => 2022,
         ]);
     }

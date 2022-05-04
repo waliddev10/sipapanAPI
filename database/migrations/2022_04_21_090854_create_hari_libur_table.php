@@ -14,10 +14,10 @@ class CreateHariLiburTable extends Migration
     public function up()
     {
         Schema::create('hari_libur', function (Blueprint $table) {
-            $table->string('id', 36)->primary();
-            $table->date('tgl_libur');
-            $table->string('dasar_hukum');
-            $table->string('keterangan');
+            $table->string('id', 36)->primary();        // uuid v4
+            $table->date('tgl_libur');                  // tgl libur kalender gubernur
+            $table->string('keterangan');               // hari libur apa?
+            $table->string('dasar_hukum')->nullable();  // dasar hukum
             $table->timestamps();
         });
     }

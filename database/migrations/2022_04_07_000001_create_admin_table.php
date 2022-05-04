@@ -14,13 +14,13 @@ class CreateAdminTable extends Migration
     public function up()
     {
         Schema::create('admin', function (Blueprint $table) {
-            $table->string('id', 36)->primary();
-            $table->string('nama');
-            $table->string('nip', 18);
-            $table->string('jabatan');
-            $table->string('email')->unique();
-            $table->string('password');
-            $table->rememberToken();
+            $table->string('id', 36)->primary();    // uuid v4
+            $table->string('nama');                 // nama administrator
+            $table->string('nip', 18);              // nip administrator
+            $table->string('jabatan');              // jabatan admin
+            $table->string('email')->unique();      // alamat email harus unik
+            $table->string('password');             // password
+            $table->rememberToken();                // remember_token (belum berfungsi)
             $table->timestamps();
         });
     }

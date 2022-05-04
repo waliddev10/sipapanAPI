@@ -28,7 +28,7 @@ class HariLiburSeeder extends Seeder
             [
                 'id' => Uuid::uuid4(),
                 'tgl_libur' => '2022-02-01',
-                'dasar_hukum' => 'SURAT EDARAN No. 003/7173/B.Org-TL TENTANG HARI LIBUR NASIONAL DAN CUTI BERSAMA TAHUN 2023',
+                'dasar_hukum' => 'SURAT EDARAN No. 003/7173/B.Org-TL TENTANG HARI LIBUR NASIONAL DAN CUTI BERSAMA TAHUN 2022',
                 'keterangan' => 'Tahun Baru Imlek 2573',
                 'created_at' => Carbon::now(),
                 'updated_at' => Carbon::now()
@@ -36,7 +36,7 @@ class HariLiburSeeder extends Seeder
             [
                 'id' => Uuid::uuid4(),
                 'tgl_libur' => '2022-02-28',
-                'dasar_hukum' => 'SURAT EDARAN No. 003/7173/B.Org-TL TENTANG HARI LIBUR NASIONAL DAN CUTI BERSAMA TAHUN 2024',
+                'dasar_hukum' => 'SURAT EDARAN No. 003/7173/B.Org-TL TENTANG HARI LIBUR NASIONAL DAN CUTI BERSAMA TAHUN 2022',
                 'keterangan' => 'Isra Mi\'raj Nabi Muhammad SAW',
                 'created_at' => Carbon::now(),
                 'updated_at' => Carbon::now()
@@ -44,7 +44,7 @@ class HariLiburSeeder extends Seeder
             [
                 'id' => Uuid::uuid4(),
                 'tgl_libur' => '2022-03-03',
-                'dasar_hukum' => 'SURAT EDARAN No. 003/7173/B.Org-TL TENTANG HARI LIBUR NASIONAL DAN CUTI BERSAMA TAHUN 2025',
+                'dasar_hukum' => 'SURAT EDARAN No. 003/7173/B.Org-TL TENTANG HARI LIBUR NASIONAL DAN CUTI BERSAMA TAHUN 2022',
                 'keterangan' => 'Hari Suci Nyepi Tahun Baru Saka 1944',
                 'created_at' => Carbon::now(),
                 'updated_at' => Carbon::now()
@@ -52,7 +52,7 @@ class HariLiburSeeder extends Seeder
             [
                 'id' => Uuid::uuid4(),
                 'tgl_libur' => '2022-04-15',
-                'dasar_hukum' => 'SURAT EDARAN No. 003/7173/B.Org-TL TENTANG HARI LIBUR NASIONAL DAN CUTI BERSAMA TAHUN 2026',
+                'dasar_hukum' => 'SURAT EDARAN No. 003/7173/B.Org-TL TENTANG HARI LIBUR NASIONAL DAN CUTI BERSAMA TAHUN 2022',
                 'keterangan' => 'Wafat Isa Al Masih',
                 'created_at' => Carbon::now(),
                 'updated_at' => Carbon::now()
@@ -60,7 +60,7 @@ class HariLiburSeeder extends Seeder
             [
                 'id' => Uuid::uuid4(),
                 'tgl_libur' => '2022-05-01',
-                'dasar_hukum' => 'SURAT EDARAN No. 003/7173/B.Org-TL TENTANG HARI LIBUR NASIONAL DAN CUTI BERSAMA TAHUN 2027',
+                'dasar_hukum' => 'SURAT EDARAN No. 003/7173/B.Org-TL TENTANG HARI LIBUR NASIONAL DAN CUTI BERSAMA TAHUN 2022',
                 'keterangan' => 'Hari Buruh Internasional',
                 'created_at' => Carbon::now(),
                 'updated_at' => Carbon::now()
@@ -68,7 +68,7 @@ class HariLiburSeeder extends Seeder
             [
                 'id' => Uuid::uuid4(),
                 'tgl_libur' => '2022-05-02',
-                'dasar_hukum' => 'SURAT EDARAN No. 003/7173/B.Org-TL TENTANG HARI LIBUR NASIONAL DAN CUTI BERSAMA TAHUN 2028',
+                'dasar_hukum' => 'SURAT EDARAN No. 003/7173/B.Org-TL TENTANG HARI LIBUR NASIONAL DAN CUTI BERSAMA TAHUN 2022',
                 'keterangan' => 'Hari Raya Idul Fitri 1443 Hijriah',
                 'created_at' => Carbon::now(),
                 'updated_at' => Carbon::now()
@@ -76,7 +76,7 @@ class HariLiburSeeder extends Seeder
             [
                 'id' => Uuid::uuid4(),
                 'tgl_libur' => '2022-05-03',
-                'dasar_hukum' => 'SURAT EDARAN No. 003/7173/B.Org-TL TENTANG HARI LIBUR NASIONAL DAN CUTI BERSAMA TAHUN 2029',
+                'dasar_hukum' => 'SURAT EDARAN No. 003/7173/B.Org-TL TENTANG HARI LIBUR NASIONAL DAN CUTI BERSAMA TAHUN 2022',
                 'keterangan' => 'Hari Raya Idul Fitri 1443 Hijriah',
                 'created_at' => Carbon::now(),
                 'updated_at' => Carbon::now()
@@ -84,7 +84,7 @@ class HariLiburSeeder extends Seeder
             [
                 'id' => Uuid::uuid4(),
                 'tgl_libur' => '2022-05-16',
-                'dasar_hukum' => 'SURAT EDARAN No. 003/7173/B.Org-TL TENTANG HARI LIBUR NASIONAL DAN CUTI BERSAMA TAHUN 2030',
+                'dasar_hukum' => 'SURAT EDARAN No. 003/7173/B.Org-TL TENTANG HARI LIBUR NASIONAL DAN CUTI BERSAMA TAHUN 2022',
                 'keterangan' => 'Hari Raya Waisak 2566 BE',
                 'created_at' => Carbon::now(),
                 'updated_at' => Carbon::now()
@@ -92,7 +92,7 @@ class HariLiburSeeder extends Seeder
             [
                 'id' => Uuid::uuid4(),
                 'tgl_libur' => '2022-05-26',
-                'dasar_hukum' => 'SURAT EDARAN No. 003/7173/B.Org-TL TENTANG HARI LIBUR NASIONAL DAN CUTI BERSAMA TAHUN 2031',
+                'dasar_hukum' => 'SURAT EDARAN No. 003/7173/B.Org-TL TENTANG HARI LIBUR NASIONAL DAN CUTI BERSAMA TAHUN 2022',
                 'keterangan' => 'Kenaikan Isa Al Masih',
                 'created_at' => Carbon::now(),
                 'updated_at' => Carbon::now()
@@ -100,7 +100,7 @@ class HariLiburSeeder extends Seeder
             [
                 'id' => Uuid::uuid4(),
                 'tgl_libur' => '2022-06-01',
-                'dasar_hukum' => 'SURAT EDARAN No. 003/7173/B.Org-TL TENTANG HARI LIBUR NASIONAL DAN CUTI BERSAMA TAHUN 2032',
+                'dasar_hukum' => 'SURAT EDARAN No. 003/7173/B.Org-TL TENTANG HARI LIBUR NASIONAL DAN CUTI BERSAMA TAHUN 2022',
                 'keterangan' => 'Hari Lahir Pancasila',
                 'created_at' => Carbon::now(),
                 'updated_at' => Carbon::now()
@@ -108,7 +108,7 @@ class HariLiburSeeder extends Seeder
             [
                 'id' => Uuid::uuid4(),
                 'tgl_libur' => '2022-07-09',
-                'dasar_hukum' => 'SURAT EDARAN No. 003/7173/B.Org-TL TENTANG HARI LIBUR NASIONAL DAN CUTI BERSAMA TAHUN 2033',
+                'dasar_hukum' => 'SURAT EDARAN No. 003/7173/B.Org-TL TENTANG HARI LIBUR NASIONAL DAN CUTI BERSAMA TAHUN 2022',
                 'keterangan' => 'Hari Raya Idul Adha 1443 Hijriah',
                 'created_at' => Carbon::now(),
                 'updated_at' => Carbon::now()
@@ -116,7 +116,7 @@ class HariLiburSeeder extends Seeder
             [
                 'id' => Uuid::uuid4(),
                 'tgl_libur' => '2022-07-30',
-                'dasar_hukum' => 'SURAT EDARAN No. 003/7173/B.Org-TL TENTANG HARI LIBUR NASIONAL DAN CUTI BERSAMA TAHUN 2034',
+                'dasar_hukum' => 'SURAT EDARAN No. 003/7173/B.Org-TL TENTANG HARI LIBUR NASIONAL DAN CUTI BERSAMA TAHUN 2022',
                 'keterangan' => 'Tahun Baru Islam 1444 Hijriah',
                 'created_at' => Carbon::now(),
                 'updated_at' => Carbon::now()
@@ -124,7 +124,7 @@ class HariLiburSeeder extends Seeder
             [
                 'id' => Uuid::uuid4(),
                 'tgl_libur' => '2022-08-17',
-                'dasar_hukum' => 'SURAT EDARAN No. 003/7173/B.Org-TL TENTANG HARI LIBUR NASIONAL DAN CUTI BERSAMA TAHUN 2035',
+                'dasar_hukum' => 'SURAT EDARAN No. 003/7173/B.Org-TL TENTANG HARI LIBUR NASIONAL DAN CUTI BERSAMA TAHUN 2022',
                 'keterangan' => 'Hari Kemerdekaan Republik Indonesia',
                 'created_at' => Carbon::now(),
                 'updated_at' => Carbon::now()
@@ -132,7 +132,7 @@ class HariLiburSeeder extends Seeder
             [
                 'id' => Uuid::uuid4(),
                 'tgl_libur' => '2022-10-08',
-                'dasar_hukum' => 'SURAT EDARAN No. 003/7173/B.Org-TL TENTANG HARI LIBUR NASIONAL DAN CUTI BERSAMA TAHUN 2036',
+                'dasar_hukum' => 'SURAT EDARAN No. 003/7173/B.Org-TL TENTANG HARI LIBUR NASIONAL DAN CUTI BERSAMA TAHUN 2022',
                 'keterangan' => 'Maulid Nabi Muhammad SAW',
                 'created_at' => Carbon::now(),
                 'updated_at' => Carbon::now()
@@ -140,7 +140,7 @@ class HariLiburSeeder extends Seeder
             [
                 'id' => Uuid::uuid4(),
                 'tgl_libur' => '2022-12-25',
-                'dasar_hukum' => 'SURAT EDARAN No. 003/7173/B.Org-TL TENTANG HARI LIBUR NASIONAL DAN CUTI BERSAMA TAHUN 2037',
+                'dasar_hukum' => 'SURAT EDARAN No. 003/7173/B.Org-TL TENTANG HARI LIBUR NASIONAL DAN CUTI BERSAMA TAHUN 2022',
                 'keterangan' => 'Hari Raya Natal',
                 'created_at' => Carbon::now(),
                 'updated_at' => Carbon::now()

@@ -14,13 +14,13 @@ class CreateNpaTable extends Migration
     public function up()
     {
         Schema::create('npa', function (Blueprint $table) {
-            $table->string('id', 36)->primary();
-            $table->bigInteger('volume_min')->unsigned(true)->nullable();
-            $table->bigInteger('volume_max')->unsigned(true)->nullable();
-            $table->float('nilai', 15, 2)->unsigned(true);
-            $table->string('jenis_usaha_id', 36);
-            $table->date('tgl_berlaku');
-            $table->string('keterangan');
+            $table->string('id', 36)->primary();                            // uuid v4
+            $table->bigInteger('volume_min')->unsigned(true)->nullable();   // volume min NPA
+            $table->bigInteger('volume_max')->unsigned(true)->nullable();   // volume max NPA
+            $table->float('nilai', 15, 2)->unsigned(true);                  // nilai NPA
+            $table->string('jenis_usaha_id', 36);                           // jenis usaha
+            $table->date('tgl_berlaku');                                    // tgl diberlakukannya NPA
+            $table->string('keterangan')->nullable();                       // keterangan
             $table->timestamps();
         });
     }

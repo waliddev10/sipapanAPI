@@ -14,8 +14,8 @@ class CreateCaraPelaporanTable extends Migration
     public function up()
     {
         Schema::create('cara_pelaporan', function (Blueprint $table) {
-            $table->string('id', 36)->primary();
-            $table->string('nama');
+            $table->string('id', 36)->primary();    // uuid v4
+            $table->string('nama');                 // nama judul pelaporan
             $table->timestamps();
         });
     }

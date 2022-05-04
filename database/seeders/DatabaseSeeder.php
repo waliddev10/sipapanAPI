@@ -8,6 +8,8 @@ use Database\Seeders\KotaPenandatanganSeeder;
 use Database\Seeders\MasaPajakSeeder;
 use Database\Seeders\NpaSeeder;
 use Database\Seeders\PenandatanganSeeder;
+use Database\Seeders\SanksiAdministrasiSeeder;
+use Database\Seeders\SanksiBungaSeeder;
 use Database\Seeders\TarifPajakSeeder;
 use Illuminate\Database\Seeder;
 
@@ -29,5 +31,8 @@ class DatabaseSeeder extends Seeder
         $this->call(CaraPelaporanSeeder::class);
         $this->call(NpaSeeder::class);
         $this->call(HariLiburSeeder::class);
+
+        $this->call(SanksiAdministrasiSeeder::class);
+        $this->call(SanksiBungaSeeder::class);
     }
 }
