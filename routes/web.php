@@ -113,6 +113,22 @@ $router->group(['prefix' => 'api'], function ($router) {
                     $router->put('/{id}', 'Database\TarifPajakController@put');
                     $router->delete('/{id}', 'Database\TarifPajakController@delete');
                 });
+                // sanksi-administrasi
+                $router->group(['prefix' => 'sanksi-administrasi'], function () use ($router) {
+                    $router->get('/', 'Database\SanksiAdministrasiController@get');
+                    $router->get('/{id}', 'Database\SanksiAdministrasiController@getOne');
+                    $router->post('/', 'Database\SanksiAdministrasiController@post');
+                    $router->put('/{id}', 'Database\SanksiAdministrasiController@put');
+                    $router->delete('/{id}', 'Database\SanksiAdministrasiController@delete');
+                });
+                // sanksi-bunga
+                $router->group(['prefix' => 'sanksi-bunga'], function () use ($router) {
+                    $router->get('/', 'Database\SanksiBungaController@get');
+                    $router->get('/{id}', 'Database\SanksiBungaController@getOne');
+                    $router->post('/', 'Database\SanksiBungaController@post');
+                    $router->put('/{id}', 'Database\SanksiBungaController@put');
+                    $router->delete('/{id}', 'Database\SanksiBungaController@delete');
+                });
             });
         }
     );

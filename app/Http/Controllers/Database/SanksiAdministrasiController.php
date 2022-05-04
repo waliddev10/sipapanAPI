@@ -12,7 +12,7 @@ class SanksiAdministrasiController extends Controller
 {
     public function get()
     {
-        $data = SanksiAdministrasi::all();
+        $data = SanksiAdministrasi::orderBy('tgl_berlaku', 'desc')->get();
 
         if (!$data)
             return response()->json([

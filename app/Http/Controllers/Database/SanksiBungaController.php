@@ -12,7 +12,7 @@ class SanksiBungaController extends Controller
 {
     public function get()
     {
-        $data = SanksiBunga::all();
+        $data = SanksiBunga::orderBy('tgl_berlaku', 'desc')->get();
 
         if (!$data)
             return response()->json([

@@ -11,7 +11,7 @@ class Perusahaan extends Model
     public $incrementing = false;
 
     protected $fillable = [
-        'id', 'nama', 'alamat', 'tgl_penetapan', 'hp_pj', 'nama_pj', 'jenis_usaha_id'
+        'id', 'nama', 'alamat', 'tgl_penetapan', 'hp_pj', 'nama_pj', 'jenis_usaha_id', 'email'
     ];
 
     public function jenis_usaha()

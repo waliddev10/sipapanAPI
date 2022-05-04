@@ -43,6 +43,7 @@ class PerusahaanController extends Controller
             'hp_pj' => 'required',
             'nama_pj' => 'required',
             'jenis_usaha_id' => 'required',
+            'email' => 'required|email'
         ]);
 
         $data = Perusahaan::create([
@@ -53,6 +54,7 @@ class PerusahaanController extends Controller
             'hp_pj' => $request->hp_pj,
             'nama_pj' => $request->nama_pj,
             'jenis_usaha_id' => $request->jenis_usaha_id,
+            'email' => $request->email,
         ]);
 
         return response()->json([
@@ -70,6 +72,7 @@ class PerusahaanController extends Controller
             'hp_pj' => 'sometimes|required',
             'nama_pj' => 'sometimes|required',
             'jenis_usaha_id' => 'sometimes|required',
+            'email' => 'sometimes|required|email',
         ]);
 
         $data = Perusahaan::find($id);
