@@ -88,7 +88,8 @@ class PerusahaanController extends Controller
             'tgl_penetapan',
             'hp_pj',
             'nama_pj',
-            'jenis_usaha_id'
+            'jenis_usaha_id',
+            'email'
         ]));
 
         return response()->json([
